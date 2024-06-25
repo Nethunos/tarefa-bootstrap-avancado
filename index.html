@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de livros.</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container-header">
+                <h1>Estante de livros.</h1>
+            </div>
+            <div>
+                <nav>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ficção</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Romance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Biografias</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div id="carroussel-box" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <h2>Destaques</h2>
+            <div class="container">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="row">
+                            <div class="col">
+                                <img src="https://via.placeholder.com/150x200">
+                                <h4>Título do livro 1</h4>
+                                <h3>R$00,00</h3>
+                            </div>
+                            <div class="col" id="destaque-2">
+                                <img src="https://via.placeholder.com/150x200">
+                                <h4>Título do livro 1</h4>
+                                <h3>R$00,00</h3>
+                            </div>
+                            <div class="col" id="destaque-3">
+                                <img src="https://via.placeholder.com/150x200">
+                                <h4>Título do livro 1</h4>
+                                <h3>R$00,00</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row">
+                            <div class="col">
+                                <img src="https://via.placeholder.com/150x200">
+                                <h4>Título do livro 2</h4>
+                                <h3>R$00,00</h3>
+                            </div>
+                            <div class="col" id="destaque-2">
+                                <img src="https://via.placeholder.com/150x200">
+                                <h4>Título do livro 2</h4>
+                                <h3>R$00,00</h3>
+                            </div>
+                            <div class="col" id="destaque-3">
+                                <img src="https://via.placeholder.com/150x200">
+                                <h4>Título do livro 2</h4>
+                                <h3>R$00,00</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="row">
+                            <div class="col">
+                                <img src="https://via.placeholder.com/150x200">
+                                <h4>Título do livro 3</h4>
+                                <h3>R$00,00</h3>
+                            </div>
+                            <div class="col" id="destaque-2">
+                                <img src="https://via.placeholder.com/150x200">
+                                <h4>Título do livro 3</h4>
+                                <h3>R$00,00</h3>
+                            </div>
+                            <div class="col" id="destaque-3">
+                                <img src="https://via.placeholder.com/150x200">
+                                <h4>Título do livro 3</h4>
+                                <h3>R$00,00</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row" id="conteudo">
+            <div class="col-lg-8 col-sm-12">
+                <section>
+                    <h2>Lançamentos</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card-header">
+                                        <h3>Título do livro</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="https://via.placeholder.com/100x150" alt="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt possimus, saepe quod iste unde harum commodi?</p>
+                                        <a class="btn btn-primary btn-sm" href="#">Ir para página do livro.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card-2">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card-header">
+                                        <h3>Título do livro</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="https://via.placeholder.com/100x150" alt="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt possimus, saepe quod iste unde harum commodi?</p>
+                                        <a class="btn btn-primary btn-sm" href="#">Ir para página do livro.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card-3">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card-header">
+                                        <h3>Título do livro</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="https://via.placeholder.com/100x150" alt="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt possimus, saepe quod iste unde harum commodi?</p>
+                                        <a class="btn btn-primary btn-sm" href="#">Ir para página do livro.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h2>Ficção</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card-header">
+                                        <h3>Título do livro</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="https://via.placeholder.com/100x150" alt="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt possimus, saepe quod iste unde harum commodi?</p>
+                                        <a class="btn btn-primary btn-sm" href="#">Ir para página do livro.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card-2">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card-header">
+                                        <h3>Título do livro</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="https://via.placeholder.com/100x150" alt="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt possimus, saepe quod iste unde harum commodi?</p>
+                                        <a class="btn btn-primary btn-sm" href="#">Ir para página do livro.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card-3">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card-header">
+                                        <h3>Título do livro</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="https://via.placeholder.com/100x150" alt="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt possimus, saepe quod iste unde harum commodi?</p>
+                                        <a class="btn btn-primary btn-sm" href="#">Ir para página do livro.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h2>Romance</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card-header">
+                                        <h3>Título do livro</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="https://via.placeholder.com/100x150" alt="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt possimus, saepe quod iste unde harum commodi?</p>
+                                        <a class="btn btn-primary btn-sm" href="#">Ir para página do livro.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card-2">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card-header">
+                                        <h3>Título do livro</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="https://via.placeholder.com/100x150" alt="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt possimus, saepe quod iste unde harum commodi?</p>
+                                        <a class="btn btn-primary btn-sm" href="#">Ir para página do livro.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card-3">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card-header">
+                                        <h3>Título do livro</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="https://via.placeholder.com/100x150" alt="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt possimus, saepe quod iste unde harum commodi?</p>
+                                        <a class="btn btn-primary btn-sm" href="#">Ir para página do livro.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h2>Biografias</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card-header">
+                                        <h3>Título do livro</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="https://via.placeholder.com/100x150" alt="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt possimus, saepe quod iste unde harum commodi?</p>
+                                        <a class="btn btn-primary btn-sm" href="#">Ir para página do livro.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card-2">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card-header">
+                                        <h3>Título do livro</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="https://via.placeholder.com/100x150" alt="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt possimus, saepe quod iste unde harum commodi?</p>
+                                        <a class="btn btn-primary btn-sm" href="#">Ir para página do livro.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" id="card-3">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card-header">
+                                        <h3>Título do livro</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <img src="https://via.placeholder.com/100x150" alt="">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt possimus, saepe quod iste unde harum commodi?</p>
+                                        <a class="btn btn-primary btn-sm" href="#">Ir para página do livro.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Título</h2>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://via.placeholder.com/100x150" alt="">  
+                        <a href="#" id="link-coluna-lateral">
+                            <h3>Nome do Livro</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dolores distinctio quod hic similique mollitia nesciunt aperiam unde molestias voluptates rerum excepturi voluptas quibusdam libero odio recusandae, dignissimos consequatur quia.</p>
+                        </a>
+                        <br>
+                        <img src="https://via.placeholder.com/100x150" alt="">  
+                        <a href="#" id="link-coluna-lateral">
+                            <h3>Nome do Livro</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dolores distinctio quod hic similique mollitia nesciunt aperiam unde molestias voluptates rerum excepturi voluptas quibusdam libero odio recusandae, dignissimos consequatur quia.</p>
+                        </a>
+                        <br>
+                        <img src="https://via.placeholder.com/100x150" alt="">  
+                        <a href="#" id="link-coluna-lateral">
+                            <h3>Nome do Livro</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dolores distinctio quod hic similique mollitia nesciunt aperiam unde molestias voluptates rerum excepturi voluptas quibusdam libero odio recusandae, dignissimos consequatur quia.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
