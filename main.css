@@ -37,6 +37,10 @@ nav {
     .col-4  {
         display: none;
     }
+
+    #card-3 {
+        display: flex;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -61,5 +65,9 @@ nav {
 
     .col-8 {
         width: 100%;
+    }
+
+    #card-3 {
+        display: none;
     }
 }
